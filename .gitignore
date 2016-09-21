@@ -3,3 +3,6 @@
 
 #Pycharm
 .idea/
+
+#Self
+.gitignore
