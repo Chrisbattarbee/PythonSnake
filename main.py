@@ -233,7 +233,7 @@ class GameManager:
                     self.state = 'right'
                     self.prevState = 'up'
 
-        self.screen.fill(black)
+        self.screen.fill((0,0,0))
         death_text = font.render("Oh no you died!", 1, (255, 255, 255))
         score_text = font.render("Score: " + str(self.score), 1, (255, 255, 255))
         restart_text = font.render("SPACE to retry.", 1, (255, 255, 255))
