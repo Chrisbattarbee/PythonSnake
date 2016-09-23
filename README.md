@@ -1,4 +1,4 @@
-# Pythonsnake
+# PythonSnake
 
 Snake implemented in python using the PyGame library for rendering.
 
